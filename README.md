@@ -1,7 +1,5 @@
-# HW_18-NoSQL-Social-Network-API
-Demo video link
+# HW_18-NoSQL-Challenge-Social-Network-API
 
-https://drive.google.com/file/d/1k67C9TIzdqRhv9AJmqnIAcxEtXODRsRQ/view
 
 
 ## About Task
@@ -141,13 +139,6 @@ This will not be a model, but rather will be used as the `reaction` field's subd
 
 * `POST` a new user:
 
-```json
-// example data
-{
-  "username": "lernantino",
-  "email": "lernantino@gmail.com"
-}
-```
 
 * `PUT` to update a user by its `_id`
 
@@ -173,14 +164,7 @@ This will not be a model, but rather will be used as the `reaction` field's subd
 
 * `POST` to create a new thought (don't forget to push the created thought's `_id` to the associated user's `thoughts` array field)
 
-```json
-// example data
-{
-  "thoughtText": "Here's a cool thought...",
-  "username": "lernantino",
-  "userId": "5edff358a0fcb779aa7b118b"
-}
-```
+
 
 * `PUT` to update a thought by its `_id`
 
